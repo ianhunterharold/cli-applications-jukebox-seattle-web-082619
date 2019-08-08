@@ -51,7 +51,7 @@ def run
  
     while user_input != "exit"
     #do nothing
-  puts "Please enter a command:"
+     puts "Please enter a command:"
   user_input = gets.strip
    
     
@@ -66,7 +66,7 @@ def run
     
   elsif user_input == "play"
     return play(songs_array)
-    puts "Please enter a command:"
+    
     end 
   end  #end of ifs 
 end #end of method 
