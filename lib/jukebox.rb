@@ -46,7 +46,7 @@ def exit_jukebox
   puts "Goodbye"
 end 
 
-def run(songs_array)
+def run(user_input)
   help
    puts "Please enter a command:"
     while user_input != "exit"
