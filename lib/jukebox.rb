@@ -47,7 +47,8 @@ def exit_jukebox
 end 
 
 def run(user_input)
-  #help
+  #help INSTRUCTIONS CLEARLY SAY TO CALL IT BUT WHEN YOU COMMENT IT OUT YOU GET MORE CORRECT ON THE LAB...
+  
    puts "Please enter a command:"
     while user_input != "exit"
     #do nothing
