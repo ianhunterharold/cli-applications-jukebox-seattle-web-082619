@@ -68,7 +68,7 @@ def run
     return play(songs_array)
   else 
     puts "Please enter a command:"
-    
+    break
     end 
   end  #end of ifs 
 end #end of method 
