@@ -61,10 +61,10 @@ def run(user_input)
     return help 
     
   elsif user_input == "list"
-    return list
+    return list(songs)
     
   elsif user_input == "play"
-    return play(songs_array)
+    return play(songs)
   else 
     puts "Please enter a command:"
     break
