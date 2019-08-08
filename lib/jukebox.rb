@@ -61,7 +61,7 @@ def run(user_input)
     return help 
     
   elsif user_input == "list"
-    return list(songs_array)
+    return list
     
   elsif user_input == "play"
     return play(songs_array)
