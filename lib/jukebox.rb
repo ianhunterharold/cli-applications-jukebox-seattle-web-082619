@@ -66,7 +66,7 @@ def run
     
   elsif user_input == "play"
     return play(songs_array)
-    
+    puts "Please enter a command:"
     end 
   end  #end of ifs 
 end #end of method 
