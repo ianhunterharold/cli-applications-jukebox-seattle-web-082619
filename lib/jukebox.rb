@@ -47,7 +47,7 @@ def exit_jukebox
 end 
 
 def run(user_input)
-  help
+  #help
    puts "Please enter a command:"
     while user_input != "exit"
     #do nothing
