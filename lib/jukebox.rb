@@ -48,6 +48,7 @@ end
 
 def run(songs_array)
   help
+  
     while user_input != "exit"
     #do nothing
      puts "Please enter a command:"
