@@ -48,10 +48,10 @@ end
 
 def run(songs_array)
   help
-  
+   puts "Please enter a command:"
     while user_input != "exit"
     #do nothing
-     puts "Please enter a command:"
+    
   user_input = gets.strip
     
   if user_input == "exit"
